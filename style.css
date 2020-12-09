@@ -1,0 +1,386 @@
+body{
+    background-color: rgb(20, 20, 20);
+    margin: 2em ;
+}
+
+h1, h2, h3{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 700;
+}
+
+#circle-container {
+    transform: rotateX(75deg);
+    width: 200px;
+    height: 300px;
+   
+    
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    box-shadow: 1px 25px 0px 0px black inset, 5px 10px 0px 50px white inset;
+    -moz-animation: spin .4s infinite linear;
+    -webkit-animation: spin .4s infinite linear;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+}
+
+.circle-two {
+    position: absolute;
+    z-index: -10;
+    top: 140px;
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 165px;
+    -webkit-border-radius: 165px;
+    border-radius: 165px;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 2px 10px 0px 0px dimgrey inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .2s infinite linear;
+    -webkit-animation: spin .2s infinite linear;
+}
+
+.circle-three {
+    position: absolute;
+    z-index: -20;
+    top: 240px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    box-shadow: 1px 10px 0px 0px black inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .4s infinite linear;
+    -webkit-animation: spin .4s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+.circle-four {
+    position: absolute;
+    z-index: -30;
+    top: 400px;
+    left: 60px;
+    width: 230px;
+    height: 230px;
+    -moz-border-radius: 115px;
+    -webkit-border-radius: 115px;
+    border-radius: 115px;
+    box-shadow: 5px 0px 0px 0px black inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .2s infinite linear;
+    -webkit-animation: spin .2s infinite linear;
+    background: rgba(220,220,220,0.5);
+}
+
+
+.circle-five {
+    position: absolute;
+    z-index: -40;
+    top: 490px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    box-shadow: 5px 0px 0px 1px gray inset, 4px 1px 0px 50px gainsboro inset;
+    -moz-animation: spin .3s infinite linear;
+    -webkit-animation: spin .3s infinite linear;
+    background: rgba(105,105,105,0.9);
+}
+
+.circle-six {
+    position: absolute;
+    z-index: -50;
+    top: 590px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    box-shadow: 1px 16px 0px 0px black inset, 5px 10px 0px 50px white inset;
+    -moz-animation: spin .3s infinite linear;
+    -webkit-animation: spin .3s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+
+.circle-seven {
+    position: absolute;
+    z-index: -60;
+    top: 670px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    box-shadow: 1px 5px 0px 10px dimgrey inset, 3px 1px 0px 10px white inset;
+    -moz-animation: spin .3s infinite linear;
+    -webkit-animation: spin .3s infinite linear;
+    background: rgba(200,200,200,1);
+}
+
+.circle-eight {
+    position: absolute;
+    z-index: -70;
+    top: 720px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    box-shadow: 2px 10px 0px 0px black inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .3s infinite linear;
+    -webkit-animation: spin .3s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+.circle-nine {
+    position: absolute;
+    z-index: -80;
+    top: 780px;
+    left: 90px;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 1px 10px 0px 0px #708090 inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .4s infinite linear;
+    -webkit-animation: spin .4s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+.circle-ten {
+    position: absolute;
+    z-index: -90;
+    top: 820px;
+    left: 100px;
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 10px 0px 0px #2F4F4F inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .4s infinite linear;
+    -webkit-animation: spin .4s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+.circle-eleven {
+    position: absolute;
+    z-index: -100;
+    top: 840px;
+    left: 110px;
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 10px 0px 0px black inset, 4px 1px 0px 50px white inset;
+    -moz-animation: spin .2s infinite linear;
+    -webkit-animation: spin .2s infinite linear;
+    background: rgba(0,0,0,0.5);
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-moz-keyframes spinoff {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(-360deg);
+    };
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}
+
+@-webkit-keyframes spinoff {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+    };
+}
+
+
+.button{
+    position: relative;
+    animation: chase 5s 4;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes chase {
+    0%   {right: 0px; top: 0px;}
+    25%  {right: 100px; top: 0px;}
+    50%  {right: 200px; top: 10px;}
+    75%  {right: 75px; top: 15px;}
+    100% {right: 0px; top: 0px;}
+  }
+
+  .button , .btn{
+    background:#bcbec0;
+    border-radius: 12px;
+    padding: 10px 22px;
+    text-align: center;
+    color: rgb(184, 33, 33);
+    font-size: 1.6em;
+    width: 125px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.button{
+    margin-left: auto;
+    margin-top: 2em;
+    width: 125px;
+}
+
+.btn{
+    width: 145px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-left: 9.3em;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(184, 33, 33);   
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+    z-index: 0;
+    position: absolute;
+    margin-right: 2em;
+}
+
+p{
+    font-size: 2em;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+}
+
+#description{
+    font-size: 2.4em;
+}
+
+.tornado{
+   margin-left: 50px;
+    margin-top: -120px;
+}
+figcaption{
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+
+label{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+#sign{
+    margin-top: 50em;
+}
+
+input{
+    padding: 10px 12px;
+    border-radius: 10px;
+    width: 47%;
+    box-sizing: border-box;
+}
+
+#day{
+    margin-left: 2em;   
+}
+
+#email{
+    margin-left: 5.5em;
+}
+
+form{
+    padding: 2em;
+}
+
+.sign-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2em;
+    padding-top: 2em;
+}
+
+.details, .calender{
+    float: left;
+}
+
+#map{
+    transform: rotate(15deg);
+}
+
+.end{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    margin-top: 6em;
+}
+
+.expertise, .disclaimer{
+    border: 1px solid white;
+    transform: rotate(3deg);
+    text-align: center;
+}
+
+.next-date{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+.gallery{
+    padding-top: 3em;
+}
+
+#next-one{
+    color: rgb(184, 33, 33)
+}
+
+

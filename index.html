@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chasing tornadoes - Eye of the storm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.css">
+</head>
+
+<body>
+    <h1>Eye Of The Storm</h1>
+    <div class="intro">
+        <div class="container-image">
+            <img src="pictures/tornado.jpg" alt="">
+            <figcaption>Picture from 2016 tronado chase at Tornado Alley</figcaption>
+        </div>
+        <div class="container-text">
+            <p>Chasing a tornado. Is it in your bucket list yet? or does
+                that grab your attention? We are highly experienced strom chasers
+                who are here to facilitate your thrilling adventure. Are you
+                facinated to witness that giant funnel? Then let's talk!
+            </p>
+
+            <div class="tornado">
+                <div id="circle-container">
+                    <div class="circle"></div>
+                    <div class="circle-two"></div>
+                    <div class="circle-three"></div>
+                    <div class="circle-four"></div>
+                    <div class="circle-five"></div>
+                    <div class="circle-six"></div>
+                    <div class="circle-seven"></div>
+                    <div class="circle-eight"></div>
+                    <div class="circle-nine"></div>
+                    <div class="circle-ten"></div>
+                    <div class="circle-eleven"></div>
+                </div>
+                <div class="button"><a href="#sign">CHASE</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sign">
+        <h2>Sign Up?</h2>
+        <div class="sign-info">
+            <div class="details">
+                <form action="post">
+                    <label for="birthday">Tornado / Date :</label>
+                    <input type="date" id="day" name="day"><br>
+                    <br>
+                    <label for="email">Your Email :</label>
+                    <input type="email" id="email" name="email"> <br>
+                    <br>
+                    <div class="btn">Let's Chase!</div>
+                </form>
+            </div>
+
+            <div class="calender">
+                <img id="map" src="pictures/map.png" alt="">
+            </div>
+        </div>
+        <p id="description">We will email you once we get your email! Sometimes we are out
+            <br>and it's not always easy to read emails next to tornados.!
+        </p>
+        <div class="next-date">
+            <h4>The next chase is on: <span id="next-one">10th January 2021</span></h4>
+        </div>
+    </div>
+
+    <div class="gallery">
+    <h2>Some Chases on Insta </h2>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="pictures/image1.jpg" alt=""></li>
+            <li class="glide__slide"><img src="pictures/image2.jpg" alt=""></li>
+            <li class="glide__slide"><img src="pictures/image3.jpg" alt=""></li>
+            <li class="glide__slide"><img src="pictures/image4.jpg" alt=""></li>
+            <li class="glide__slide"><img src="pictures/image5.jpg" alt=""></li>
+            <li class="glide__slide"><img src="pictures/image6.jpg" alt=""></li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          </div>
+      </div>
+    </div>
+</div>
+
+    <div class="end">
+        <div class="expertise">
+    <h3>Expertise</h3>
+    <p id="description">Our team is a combination of expert<br> meteorologists, guides, story tellers,<br> 
+        photographers and drivers. We can make <br>sure you are safe with our years of xp!
+    </p>
+</div>
+<div class="disclaimer">
+    <h3>Disclaimer</h3>
+    <p id="description">We are there to watch! The barrage of<br> hail and lightning, the cloud
+        structure...it is amazing. <br>BUT we can't control <br>the WEATHER!</p>
+</div>
+</div>
+
+
+
+
+
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            perView: 2,
+            focusAt: 'center',
+            breakpoints: {
+                800: {
+                    perView: 2
+                },
+                480: {
+                    perView: 1
+                }
+            }
+        }).mount();
+    </script>
+
+</body>
+
+</html>
